@@ -9,7 +9,7 @@ import java.util.List;
 public class EmailBusiness {
 
 
-    public List<String> agendamentos(){
+    public List<String> todos(){
         return Arrays.asList("email-01@foofle.com", "email-02@foofle.com");
     }
 

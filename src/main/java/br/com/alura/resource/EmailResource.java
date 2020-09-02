@@ -31,8 +31,8 @@ public class EmailResource {
     public Response http(){
 
         ClientBuilder clientBuilder = ClientBuilder.newBuilder();
-        clientBuilder.connectTimeout(10000, TimeUnit.MILLISECONDS);
-        clientBuilder.readTimeout(10000, TimeUnit.MILLISECONDS);
+        clientBuilder.connectTimeout(10, TimeUnit.MILLISECONDS);
+        clientBuilder.readTimeout(12, TimeUnit.MILLISECONDS);
 
         Client client = clientBuilder.build();
 
